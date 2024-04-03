@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+llama-index-core = "*"
+llama-index-llms-replicate = "*"
+llama-index-embeddings-huggingface = "*"
+pyvis = "*"
+ipython = "*"
+pypdf = "*"
+llama-index-readers-file = "*"
+typing-extensions = "*"
+replicate = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.7"
